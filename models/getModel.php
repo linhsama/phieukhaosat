@@ -1,0 +1,52 @@
+<?php
+    require "model/bocauhoi.php";
+    require "model/cauhoi.php";
+    require "model/dotkhaosat.php";
+    require "model/giangvien.php";
+    require "model/hocky.php";
+    require "model/ketquagiangvien.php";
+    require "model/ketquasinhvien.php";
+    require "model/khoa.php";
+    require "model/khoahoc.php";
+    require "model/lophoc.php";
+    require "model/mauphieu.php";
+    require "model/namhoc.php";
+    require "model/nganhhoc.php";
+    require "model/nhomapdung.php";
+    require "model/nhomcauhoi.php";
+    require "model/phancong.php";
+    require "model/phannhom.php";
+    require "model/phanquyen.php";
+    require "model/phieukhaosat.php";
+    require "model/sinhvien.php";
+    require "model/taikhoan.php";
+    require "model/tenkhaosat.php";
+    require "model/trinhdo.php";
+    require "model/import.php";
+
+    $bocauhoi = new bocauhoi();
+    $cauhoi = new cauhoi();
+    $dotkhaosat = new dotkhaosat();
+    $giangvien = new giangvien();
+    $hocky = new hocky();
+    $ketquagiangvien = new ketquagiangvien();
+    $ketquasinhvien = new ketquasinhvien();
+    $khoa = new khoa();
+    $khoahoc = new khoahoc();
+    $lophoc = new lophoc();
+    $mauphieu = new mauphieu();
+    $namhoc = new namhoc();
+    $nganhhoc = new nganhhoc();
+    $nhomapdung = new nhomapdung();
+    $nhomcauhoi = new nhomcauhoi();
+    $phancong = new phancong();
+    $phannhom = new phannhom();
+    $phanquyen = new phanquyen();
+    $phieukhaosat = new phieukhaosat();
+    $sinhvien = new sinhvien();
+    $taikhoan = new taikhoan();
+    $tenkhaosat = new tenkhaosat();
+    $trinhdo = new trinhdo();
+    $import = new import();
+
+?>
